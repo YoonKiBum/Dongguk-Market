@@ -34,6 +34,8 @@ public class MovementInput : MonoBehaviour {
 
     public float verticalVel;
     private Vector3 moveVector;
+	GameObject nearObject;
+	bool iDown;
 
 	// Use this for initialization
 	void Start () {
@@ -65,6 +67,8 @@ public class MovementInput : MonoBehaviour {
 
         moveVector = new Vector3(0, verticalVel * Time.deltaTime, 0);
         controller.Move(moveVector);
+		iDown=Input.GetButtonDown("Interaction");
+		Interaction();
 
 
     }
@@ -126,6 +130,28 @@ public class MovementInput : MonoBehaviour {
 			PlayerMoveAndRotation ();
 		} else if (Speed < allowPlayerRotation) {
 			anim.SetFloat ("Blend", Speed, StopAnimTime, Time.deltaTime);
+		}
+	}
+
+	void OnTriggerStay(Collider other) {
+        if(other.tag=="shop"){
+           nearObject=other.gameObject;
+           Debug.Log(other.gameObject);
+       }
+        
+    }
+   void OnTriggerExit(Collider other) {
+       if(other.tag=="shop"){
+           nearObject=null;
+       }
+        
+    }
+	void Interaction(){
+		if(iDown && nearObject !=null){
+			if(nearObject.tag=="shop"){
+				
+			}
+
 		}
 	}
 }
