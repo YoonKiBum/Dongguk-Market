@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //This script requires you to have setup your animator with 3 parameters, "InputMagnitude", "InputX", "InputZ"
 //With a blend tree to control the inputmagnitude and allow blending between animations.
@@ -36,12 +37,17 @@ public class MovementInput : MonoBehaviour {
     private Vector3 moveVector;
 	GameObject nearObject;
 	bool iDown;
+	private GameObject NPCDialog;
+    private Text NPCText;
 
 	// Use this for initialization
 	void Start () {
 		anim = this.GetComponent<Animator> ();
 		cam = Camera.main;
 		controller = this.GetComponent<CharacterController> ();
+		NPCDialog=GameObject.Find("NPCDialog");
+		NPCText=GameObject.Find("NPCText").GetComponent<Text>();
+		NPCDialog.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -136,6 +142,7 @@ public class MovementInput : MonoBehaviour {
 	void OnTriggerStay(Collider other) {
         if(other.tag=="shop"){
            nearObject=other.gameObject;
+		   NPCDialog.SetActive(true);
            Debug.Log(other.gameObject);
        }
         
@@ -143,6 +150,7 @@ public class MovementInput : MonoBehaviour {
    void OnTriggerExit(Collider other) {
        if(other.tag=="shop"){
            nearObject=null;
+		   NPCDialog.SetActive(false);
        }
         
     }
