@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 //This script requires you to have setup your animator with 3 parameters, "InputMagnitude", "InputX", "InputZ"
 //With a blend tree to control the inputmagnitude and allow blending between animations.
@@ -145,12 +146,24 @@ public class MovementInput : MonoBehaviour {
 		   NPCDialog.SetActive(true);
            Debug.Log(other.gameObject);
        }
+       if(other.tag=="PotalIn"){
+           SceneManager.LoadScene("GameScene");
+       }
+       if(other.tag=="PotalOut"){
+           SceneManager.LoadScene("mainScene");
+       }
         
     }
    void OnTriggerExit(Collider other) {
        if(other.tag=="shop"){
            nearObject=null;
 		   NPCDialog.SetActive(false);
+       }
+       if(other.tag=="PotalIn"){
+           nearObject=null;
+       }
+       if(other.tag=="PotalOut"){
+           nearObject=null;;
        }
         
     }
