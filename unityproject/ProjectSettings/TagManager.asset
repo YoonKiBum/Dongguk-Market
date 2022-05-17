@@ -8,6 +8,10 @@ TagManager:
   - shop
   - PotalIn
   - PotalOut
+  - Target
+  - Metal
+  - ExplosiveBarrel
+  - Mole
   layers:
   - Default
   - TransparentFX
