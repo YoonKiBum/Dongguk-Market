@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CamController : MonoBehaviour
 {
@@ -27,6 +28,12 @@ public class CamController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // 종료 버튼 누른 경우 로그아웃 위한 코드
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("LogoutScene");
+        }
+
         //  마우스 우클릭 중에만 카메라 무빙 적용
         if (Input.GetMouseButton(1))
         {

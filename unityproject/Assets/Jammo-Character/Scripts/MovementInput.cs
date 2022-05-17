@@ -100,7 +100,7 @@ public class MovementInput : MonoBehaviour {
 			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation (desiredMoveDirection), desiredRotationSpeed);
             controller.Move(desiredMoveDirection * Time.deltaTime * Velocity);
 		}
-	}
+    }
 
     public void LookAt(Vector3 pos)
     {
