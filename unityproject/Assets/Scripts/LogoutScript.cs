@@ -8,9 +8,11 @@ using UnityEngine.SceneManagement;
 public class LogoutScript : MonoBehaviour
 {
     // 전역 변수로 선언
+    /*
     [Header("Login & Register")]
     public InputField ID;
     public InputField PW;
+    */
 
     void Start()
     {
@@ -43,9 +45,15 @@ public class LogoutScript : MonoBehaviour
     public void LogOut()
     {
         Backend.BMember.Logout();
-        ID.text = PW.text = "";
+        //ID.text = PW.text = "";
         print("동기 방식 로그아웃 성공");
+        SceneManager.LoadScene("InitScene");
     }
-
+    
+    // 아니요 버튼 누른 경우
+    public void No()
+    {
+        SceneManager.LoadScene("mainScene");
+    }
 }
 
