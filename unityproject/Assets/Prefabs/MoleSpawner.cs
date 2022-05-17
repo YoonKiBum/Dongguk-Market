@@ -8,7 +8,7 @@ public class MoleSpawner : MonoBehaviour
     [SerializeField]
     private float spawnTime;
 
-    private void Start() {
+    public void SetUp() {
         StartCoroutine("SpawnMole");
 
     }
