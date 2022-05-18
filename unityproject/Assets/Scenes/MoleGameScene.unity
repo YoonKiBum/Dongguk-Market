@@ -2816,6 +2816,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameController: {fileID: 1833630866}
   textScore: {fileID: 1087209127}
+  textPlayTime: {fileID: 1255640098}
+  sliderPlayTime: {fileID: 1832155643}
 --- !u!114 &1833630866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2830,6 +2832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countDown: {fileID: 156886715}
   moleSpawner: {fileID: 614783777}
+  <MaxTime>k__BackingField: 30
 --- !u!4 &1833630867
 Transform:
   m_ObjectHideFlags: 0
