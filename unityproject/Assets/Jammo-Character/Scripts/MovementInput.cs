@@ -147,7 +147,7 @@ public class MovementInput : MonoBehaviour {
            Debug.Log(other.gameObject);
        }
        if(other.tag=="PotalIn"){
-           SceneManager.LoadScene("GameScene");
+           SceneManager.LoadScene("MoleGameScene");
        }
        if(other.tag=="PotalOut"){
            SceneManager.LoadScene("mainScene");

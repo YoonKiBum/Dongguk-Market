@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LogoutScene.unity
     guid: 1636c54b47a1c4c4585309779ec257df
+  - enabled: 1
+    path: Assets/Scenes/MoleGameScene.unity
+    guid: 37ce222f14dc321488b8b1a3d53b3971
   m_configObjects: {}
