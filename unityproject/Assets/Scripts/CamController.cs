@@ -2,9 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using BackEnd;
+using UnityEngine.UI;
+using LitJson;
+using UnityEngine.Networking;
 
 public class CamController : MonoBehaviour
 {
+    // 전역 변수
+    [Header("Game Manager")]
+    public Transform tempNotice;
+    public Transform Notice;
+    string linkURL;
+
     public GameObject player; // 바라볼 플레이어 오브젝트입니다.
     public float xmove = 2;  // X축 누적 이동량
     public float ymove = 25;  // Y축 누적 이동량
@@ -64,5 +74,53 @@ public class CamController : MonoBehaviour
             Vector3 reverseDistance = new Vector3(0.0f, 0.0f, distance); // 카메라가 바라보는 앞방향은 Z 축입니다. 이동량에 따른 Z 축방향의 벡터를 구합니다.
             transform.position = Eye - transform.rotation * reverseDistance;           
         }
+    }
+
+    public void getNotice()
+    {
+        BackendReturnObject BRO = Backend.Notice.NoticeList();
+
+        if (BRO.IsSuccess())
+        {
+
+            JsonData noticeData = BRO.GetReturnValuetoJSON()["rows"][0];
+
+            string date = noticeData["postingDate"][0].ToString();
+            string title = noticeData["title"][0].ToString();
+            string content = noticeData["content"][0].ToString().Substring(0, 10);
+            string imgURL = "http://upload-console.thebackend.io" + noticeData["imageKey"][0];
+            linkURL = noticeData["linkUrl"][0].ToString();
+
+            Notice.GetChild(6).GetComponent<Text>().text = date;
+            Notice.GetChild(5).GetComponent<Text>().text = title;
+            Notice.GetChild(7).GetComponent<Text>().text = content;
+            StartCoroutine(WWWImageDown(imgURL));
+
+        }
+    }
+
+    IEnumerator WWWImageDown(string url)
+    {
+        UnityWebRequest wr = new UnityWebRequest(url);
+        DownloadHandlerTexture texDl = new DownloadHandlerTexture(true);
+        wr.downloadHandler = texDl;
+        yield return wr.SendWebRequest();
+
+        if (!(wr.isNetworkError || wr.isHttpError))
+        {
+            if (texDl.texture != null)
+            {
+                print("이미지 로드 완료");
+                Texture2D t = texDl.texture;
+                Sprite s = Sprite.Create(t, new Rect(0, 0, t.width, t.height), Vector2.zero);
+                Notice.GetChild(4).GetComponent<Image>().sprite = s;
+            }
+        }
+        else
+        {
+            print("이미지가 없습니다.");
+        }
+
+        Notice.gameObject.SetActive(true);
     }
 }
