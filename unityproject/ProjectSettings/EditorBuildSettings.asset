@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MoleGameScene.unity
     guid: 37ce222f14dc321488b8b1a3d53b3971
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: ff9f9dcb834c00c4083cc09f2c045866
   m_configObjects: {}
