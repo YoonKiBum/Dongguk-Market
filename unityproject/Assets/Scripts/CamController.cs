@@ -86,8 +86,8 @@ public class CamController : MonoBehaviour
             Debug.Log(BRO.GetReturnValue());
 
 
-            // 전체 공지 중에 2번째 공지를 저장합니다.
-            JsonData noticeData = BRO.GetReturnValuetoJSON()["rows"][1];
+            // 전체 공지 중에 1번째 공지를 저장합니다.
+            JsonData noticeData = BRO.GetReturnValuetoJSON()["rows"][0];
 
             noticePop.Find("title").GetComponentInChildren<Text>().text = noticeData["title"][0].ToString();
             noticePop.Find("content").GetComponentInChildren<Text>().text = noticeData["content"][0].ToString();
