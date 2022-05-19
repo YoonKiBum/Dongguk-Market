@@ -81,6 +81,7 @@ public class MovementInput : MonoBehaviour {
 
     }
 
+
     void PlayerMoveAndRotation() {
 		InputX = Input.GetAxis ("Horizontal");
 		InputZ = Input.GetAxis ("Vertical");
@@ -171,8 +172,8 @@ public class MovementInput : MonoBehaviour {
 	void Interaction(){
 		if(iDown && nearObject !=null){
 			if(nearObject.tag=="shop"){
-				
-			}
+                SceneManager.LoadScene("New Scene");
+            }
 
 		}
 	}
