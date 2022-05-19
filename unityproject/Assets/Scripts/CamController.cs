@@ -10,10 +10,8 @@ using UnityEngine.Networking;
 public class CamController : MonoBehaviour
 {
     // 전역 변수
-    [Header("Game Manager")]
-    public Transform tempNotice;
-    public Transform Notice;
-    string linkURL;
+    [SerializeField]
+    private Transform noticePop;
 
     public GameObject player; // 바라볼 플레이어 오브젝트입니다.
     public float xmove = 2;  // X축 누적 이동량
@@ -76,29 +74,58 @@ public class CamController : MonoBehaviour
         }
     }
 
-    public void getNotice()
+    // 전체 공지를 받아오고
+    // 그 중 한개의 공지를 표시하는 메소드
+    public void OnClickNoticeList()
     {
         BackendReturnObject BRO = Backend.Notice.NoticeList();
 
         if (BRO.IsSuccess())
         {
+            // 전체 공지 리스트
+            Debug.Log(BRO.GetReturnValue());
 
-            JsonData noticeData = BRO.GetReturnValuetoJSON()["rows"][0];
 
-            string date = noticeData["postingDate"][0].ToString();
-            string title = noticeData["title"][0].ToString();
-            string content = noticeData["content"][0].ToString().Substring(0, 10);
-            string imgURL = "http://upload-console.thebackend.io" + noticeData["imageKey"][0];
-            linkURL = noticeData["linkUrl"][0].ToString();
+            // 전체 공지 중에 2번째 공지를 저장합니다.
+            JsonData noticeData = BRO.GetReturnValuetoJSON()["rows"][1];
 
-            Notice.GetChild(6).GetComponent<Text>().text = date;
-            Notice.GetChild(5).GetComponent<Text>().text = title;
-            Notice.GetChild(7).GetComponent<Text>().text = content;
-            StartCoroutine(WWWImageDown(imgURL));
+            noticePop.Find("title").GetComponentInChildren<Text>().text = noticeData["title"][0].ToString();
+            noticePop.Find("content").GetComponentInChildren<Text>().text = noticeData["content"][0].ToString();
 
+            // 이미지 참조하기
+            if (noticeData["imageKey"][0] != null)
+            {
+                StartCoroutine(WWWImageDown("http://upload-console.thebackend.io" + noticeData["imageKey"][0]));
+            }
+
+            else
+            {
+                noticePop.gameObject.SetActive(true);
+            }
+
+            // 공지 게시 일자
+            noticePop.Find("postingDateText").GetComponentInChildren<Text>().text = noticeData["postingDate"][0].ToString();
+
+            // 버튼 링크 주소
+            noticePop.Find("Button").GetComponent<Button>().onClick.AddListener(() => LinkWindow(noticeData["linkUrl"][0].ToString()));
+
+            // 버튼 이름
+            noticePop.Find("Button").GetComponentInChildren<Text>().text = noticeData["linkButtonName"][0].ToString();
+        }
+
+        else
+        {
+            Debug.Log("서버 공통 에러 발생: " + BRO.GetErrorCode());
         }
     }
 
+    // 버튼의 클릭이벤트 (버튼 클릭 한 경우 웹 페이지 열리게 작성)
+    void LinkWindow(string url)
+    {
+        Application.OpenURL(url);
+    }
+
+    // 이미지 받아오기
     IEnumerator WWWImageDown(string url)
     {
         UnityWebRequest wr = new UnityWebRequest(url);
@@ -110,17 +137,19 @@ public class CamController : MonoBehaviour
         {
             if (texDl.texture != null)
             {
-                print("이미지 로드 완료");
                 Texture2D t = texDl.texture;
                 Sprite s = Sprite.Create(t, new Rect(0, 0, t.width, t.height), Vector2.zero);
-                Notice.GetChild(4).GetComponent<Image>().sprite = s;
+                noticePop.Find("Image").GetComponent<Image>().sprite = s;
+
             }
-        }
-        else
-        {
-            print("이미지가 없습니다.");
+
+            noticePop.gameObject.SetActive(true);
         }
 
-        Notice.gameObject.SetActive(true);
+        else
+        {
+            Debug.LogError(wr.error);
+            Debug.Log("공지 사항을 받아오지 못했습니다");
+        }
     }
 }
