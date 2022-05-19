@@ -49,6 +49,7 @@ public class MovementInput : MonoBehaviour {
 		NPCDialog=GameObject.Find("NPCDialog");
 		NPCText=GameObject.Find("NPCText").GetComponent<Text>();
 		NPCDialog.SetActive(false);
+
 	}
 	
 	// Update is called once per frame
