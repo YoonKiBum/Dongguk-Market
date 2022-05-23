@@ -53,6 +53,6 @@ public class TestPlayerScript : MonoBehaviourPunCallbacks
 
         tr.Translate(Vector3.forward * v * m_moveSpeed * Time.deltaTime);
         tr.Rotate(Vector3.up * h * m_turnSpeed * Time.deltaTime);
-        m_animator.SetFloat("Speed", m_currentV); //애니메이션 갱신
+        //m_animator.SetFloat("Speed", m_currentV); //애니메이션 갱신
     }
 }

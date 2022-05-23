@@ -18,6 +18,18 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     bool Flag = false;
 
+    void Awake()
+    {
+        //마스터 client와 일반 client의 레벨을 동기화 할지 결정한다. true일 시, 마스터 client에서 레벨 변경 시 모든 client들이 자동으로 동일한 레벨을 로드한다.
+        PhotonNetwork.AutomaticallySyncScene = true;
+    }
+
+    void Start()
+    {
+        //포톤 게임 버전을 gameVersion으로 설정한다.
+        PhotonNetwork.GameVersion = this.gameVersion;
+    }
+
     public void LoginBtn()
     {
         var request = new LoginWithEmailAddressRequest { Email = EmailInput.text, Password = PasswordInput.text };
@@ -37,6 +49,10 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         print("로그인 성공");
         Flag = true;
         LoginObject.SetActive(false);
+        //온라인 연결 수행. 연결이 성공하면 콜백 메소드인 OnConnectedToMaster가 실행
+        if(Flag == true){
+            PhotonNetwork.ConnectUsingSettings();
+        }
     }
 
     void OnLoginFailure(PlayFabError error) => print("로그인 실패");
@@ -45,20 +61,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     void OnRegisterFailure(PlayFabError error) => print("회원가입 실패");
 
-    void Awake()
-  {
-      //마스터 client와 일반 client의 레벨을 동기화 할지 결정한다. true일 시, 마스터 client에서 레벨 변경 시 모든 client들이 자동으로 동일한 레벨을 로드한다.
-      PhotonNetwork.AutomaticallySyncScene = true;
-  }
-
-  void Start()
-  {
-      //포톤 게임 버전을 gameVersion으로 설정한다.
-      PhotonNetwork.GameVersion = this.gameVersion;
-      //온라인 연결 수행. 연결이 성공하면 콜백 메소드인 OnConnectedToMaster가 실행
-      PhotonNetwork.ConnectUsingSettings();
-  }
-
   void Connect() => PhotonNetwork.ConnectUsingSettings();
 
     public override void OnConnectedToMaster()
@@ -66,20 +68,19 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         //생성된 방에 랜덤하게 접속한다. 
         //접속 실패 시, 콜백 메소드인 OnJoinRandomFailed가 실행되고 PhotonNetwork.CreateRoom을 통해 새로운 방을 생성한다. 
         //접속 성공 시, OnJoinedRoom가 실행되고, PhotonNetwork.Instantiate을 통해 플레이어를 생성한다.
-        if (Flag == true)
-        {
-            PhotonNetwork.JoinRandomRoom();
-        } 
+        PhotonNetwork.JoinRandomRoom();
   }
 
   public override void OnJoinedRoom()
   {
       PhotonNetwork.Instantiate("Player3", Cube.transform.position, Quaternion.identity);
+      Debug.Log("Joined");
   }
 
   public override void OnJoinRandomFailed(short returnCode, string message)
   {
       this.CreateRoom();
+      Debug.Log("Failed! Create new room");
   }
 
   void CreateRoom()
