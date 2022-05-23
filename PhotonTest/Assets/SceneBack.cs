@@ -14,10 +14,7 @@ public class SceneBack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("p"))
-        {
-            SceneManager.LoadScene("mainScene");
-        }
+
     }
 }
 

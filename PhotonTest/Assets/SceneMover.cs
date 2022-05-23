@@ -14,9 +14,6 @@ public class SceneMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey("p"))
-        {
-            SceneManager.LoadScene("GameScene");
-        }
+
     }
 }
