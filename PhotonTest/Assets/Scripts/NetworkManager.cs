@@ -74,6 +74,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
   public override void OnJoinedRoom()
   {
       PhotonNetwork.Instantiate("Jammo_Player", Cube.transform.position, Quaternion.identity);
+      //PhotonNetwork.Instantiate("Player3", Cube.transform.position, Quaternion.identity);
       Debug.Log("Joined");
   }
 

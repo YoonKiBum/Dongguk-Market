@@ -55,6 +55,9 @@ public class MovementInput : MonoBehaviour {
 		NPCDialog=GameObject.Find("NPCDialog");
 		NPCText=GameObject.Find("NPCText").GetComponent<Text>();
 		NPCDialog.SetActive(false);
+		rb = GetComponent<Rigidbody>();
+        rb.centerOfMass = new Vector3(0, -1.5f, 0); // 무게 중심점을 변경
+        tr = GetComponent<Transform>();
 		if (PV.IsMine)
         Camera.main.GetComponent<SmoothFollow>().target = tr.Find("CamPivot").transform;
 	}
