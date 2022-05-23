@@ -61,7 +61,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     void OnRegisterFailure(PlayFabError error) => print("회원가입 실패");
 
-  void Connect() => PhotonNetwork.ConnectUsingSettings();
+  //void Connect() => PhotonNetwork.ConnectUsingSettings();
 
     public override void OnConnectedToMaster()
     {
@@ -73,7 +73,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
   public override void OnJoinedRoom()
   {
-      PhotonNetwork.Instantiate("Player3", Cube.transform.position, Quaternion.identity);
+      PhotonNetwork.Instantiate("Jammo_Player", Cube.transform.position, Quaternion.identity);
       Debug.Log("Joined");
   }
 
