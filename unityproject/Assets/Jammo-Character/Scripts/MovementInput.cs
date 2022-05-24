@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
+using UnityStandardAssets.Utility;
 
 //This script requires you to have setup your animator with 3 parameters, "InputMagnitude", "InputX", "InputZ"
 //With a blend tree to control the inputmagnitude and allow blending between animations.
@@ -23,6 +25,10 @@ public class MovementInput : MonoBehaviour {
 	public Camera cam;
 	public CharacterController controller;
 	public bool isGrounded;
+	public PhotonView PV;
+    public Rigidbody rb;
+    private Transform tr;
+	public Animator m_animator;
 
     [Header("Animation Smoothing")]
     [Range(0, 1f)]
@@ -49,7 +55,11 @@ public class MovementInput : MonoBehaviour {
 		NPCDialog=GameObject.Find("NPCDialog");
 		NPCText=GameObject.Find("NPCText").GetComponent<Text>();
 		NPCDialog.SetActive(false);
-
+		rb = GetComponent<Rigidbody>();
+        rb.centerOfMass = new Vector3(0, -1.5f, 0); // 무게 중심점을 변경
+        tr = GetComponent<Transform>();
+		if (PV.IsMine)
+        Camera.main.GetComponent<SmoothFollow>().target = tr.Find("CamPivot").transform;
 	}
 	
 	// Update is called once per frame
