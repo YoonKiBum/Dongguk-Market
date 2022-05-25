@@ -11,6 +11,7 @@ public class LoginScript : MonoBehaviour
     public GameObject LoginObject;
     public InputField EmailInput, PasswordInput, UsernameInput;
 
+    public bool Flag = false;
 
     public void LoginBtn()
     {
@@ -30,6 +31,7 @@ public class LoginScript : MonoBehaviour
     {
         print("로그인 성공");
         LoginObject.SetActive(false);
+        Flag = true;
     }
 
     void OnLoginFailure(PlayFabError error) => print("로그인 실패");

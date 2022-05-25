@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -756,6 +756,7 @@ MonoBehaviour:
   EmailInput: {fileID: 1002406039}
   PasswordInput: {fileID: 87872204}
   UsernameInput: {fileID: 2119302501}
+  Flag: 0
 --- !u!1 &554537428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,8 +1752,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 544915457}
-        m_TargetAssemblyTypeName: LoginScript, Assembly-CSharp
+      - m_Target: {fileID: 1653684813}
+        m_TargetAssemblyTypeName: NetworkManager, Assembly-CSharp
         m_MethodName: RegisterBtn
         m_Mode: 1
         m_Arguments:
@@ -1989,8 +1990,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 544915457}
-        m_TargetAssemblyTypeName: LoginScript, Assembly-CSharp
+      - m_Target: {fileID: 1653684813}
+        m_TargetAssemblyTypeName: NetworkManager, Assembly-CSharp
         m_MethodName: LoginBtn
         m_Mode: 1
         m_Arguments:
@@ -2315,8 +2316,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2021b58e7e2109c4a87e45412327f2f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoginObject: {fileID: 544915455}
+  EmailInput: {fileID: 1002406039}
+  PasswordInput: {fileID: 87872204}
+  UsernameInput: {fileID: 2119302501}
   StatusText: {fileID: 0}
-  NickNameInput: {fileID: 1860499170}
   Cube: {fileID: 65139907}
   gameVersion: 1.0
 --- !u!4 &1653684814
