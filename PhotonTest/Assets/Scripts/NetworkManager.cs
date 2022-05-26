@@ -10,6 +10,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 {
     public GameObject LoginObject;
     public InputField EmailInput, PasswordInput, UsernameInput;
+    public GameObject register;
+    public GameObject purchase;
+
 
     public Text StatusText;//접속상태
                            // public InputField NickNameInput;//닉네임
@@ -49,6 +52,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         print("로그인 성공");
         Flag = true;
         LoginObject.SetActive(false);
+        register.SetActive(false);
+        purchase.SetActive(false);
+
         //온라인 연결 수행. 연결이 성공하면 콜백 메소드인 OnConnectedToMaster가 실행
         if (Flag == true)
         {

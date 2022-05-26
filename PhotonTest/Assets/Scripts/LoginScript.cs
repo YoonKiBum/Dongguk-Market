@@ -29,15 +29,15 @@ public class LoginScript : MonoBehaviour
 
     void OnLoginSuccess(LoginResult result)
     {
-        print("·Î±×ÀÎ ¼º°ø");
+        print("ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         LoginObject.SetActive(false);
         Flag = true;
     }
 
-    void OnLoginFailure(PlayFabError error) => print("·Î±×ÀÎ ½ÇÆÐ");
+    void OnLoginFailure(PlayFabError error) => print("ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
-    void OnRegisterSuccess(RegisterPlayFabUserResult result) => print("È¸¿ø°¡ÀÔ ¼º°ø");
+    void OnRegisterSuccess(RegisterPlayFabUserResult result) => print("È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
-    void OnRegisterFailure(PlayFabError error) => print("È¸¿ø°¡ÀÔ ½ÇÆÐ");
+    void OnRegisterFailure(PlayFabError error) => print("È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
 }
