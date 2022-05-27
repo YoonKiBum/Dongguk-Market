@@ -30,7 +30,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public GameObject Sample_Item; // 상점에 인스턴스 생성하기 위해 만들어 놓은 sample
     public GameObject shop;
     public GameObject register;
-    public InputField NameInput, PriceInput, InfoInput;
+    public InputField NameInput, PriceInput, InfoInput, SearchInput;
 
     Hashtable Player_Items = new Hashtable();
 
@@ -188,11 +188,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         GameObject g;
         ItemTemplate = ShopScrollView.GetChild(0).gameObject;
 
-
+        print(SearchInput.text);
         for (int i = 0; i < PlayFabUserList.Count; i++)
         {
             string seller = PlayFabUserList[i].DisplayName;
-            print(seller);
+            
             var request = new GetUserDataRequest() { PlayFabId = PlayFabUserList[i].PlayFabId };
             PlayFabClientAPI.GetUserData(request, (result) => {
                 foreach (var eachData in result.Data)
@@ -236,7 +236,17 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
 
 
+    public void purchaseClose()
+    {
+        int children = ShopScrollView.childCount;
 
+        for(int i=0; i<children; i++)
+        {
+            ShopScrollView.GetChild(i).gameObject.SetActive(false);
+        }
+
+        shop.SetActive(false);
+    }
 
 
 
