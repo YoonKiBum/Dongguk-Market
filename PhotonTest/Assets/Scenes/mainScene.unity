@@ -2677,18 +2677,15 @@ MonoBehaviour:
   EmailInput: {fileID: 1002406039}
   PasswordInput: {fileID: 87872204}
   UsernameInput: {fileID: 2119302501}
-  StatusText: {fileID: 0}
-  Cube: {fileID: 65139907}
-  gameVersion: 1.0
-  ShopScrollView: {fileID: 22287779}
-  Shop_Items: []
-  Sample_Item: {fileID: 2556168198704731045}
-  shop: {fileID: 906067684}
-  register: {fileID: 1003534388}
   NameInput: {fileID: 7608566323509102373}
   PriceInput: {fileID: 7608566323509102372}
   InfoInput: {fileID: 7608566323509102371}
   SearchInput: {fileID: 1678698173}
+  StatusText: {fileID: 0}
+  Cube: {fileID: 65139907}
+  gameVersion: 1.0
+  shop: {fileID: 906067684}
+  register: {fileID: 1003534388}
   MyPlayFabInfo:
     DisplayName: 
     PlayFabId: 
@@ -2711,6 +2708,9 @@ MonoBehaviour:
       ValuesToDate: []
     StatValue: 0
   PlayFabUserList: []
+  ShopScrollView: {fileID: 22287779}
+  Shop_Items: []
+  Sample_Item: {fileID: 2556168198704731045}
 --- !u!4 &1653684814
 Transform:
   m_ObjectHideFlags: 0
@@ -16062,7 +16062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2556168196852973889, guid: 301a5344a363b9442b93d3c83860c576, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: purchaseClose
+      value: purchaseCloseBtn
       objectReference: {fileID: 0}
     - target: {fileID: 2556168196852973889, guid: 301a5344a363b9442b93d3c83860c576, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -16078,7 +16078,7 @@ PrefabInstance:
       objectReference: {fileID: 1653684813}
     - target: {fileID: 2556168197136536324, guid: 301a5344a363b9442b93d3c83860c576, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: getData
+      value: SearchBtn
       objectReference: {fileID: 0}
     - target: {fileID: 2556168197207841849, guid: 301a5344a363b9442b93d3c83860c576, type: 3}
       propertyPath: m_Horizontal
