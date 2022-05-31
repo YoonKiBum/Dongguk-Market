@@ -15,11 +15,11 @@ C:/Users/COM/Desktop/김태용 흔적/capston/New DM/Dongguk-Market/PhotonTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58468
+56771
 Successfully changed project path to: C:/Users/COM/Desktop/김태용 흔적/capston/New DM/Dongguk-Market/PhotonTest
 C:/Users/COM/Desktop/김태용 흔적/capston/New DM/Dongguk-Market/PhotonTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -35,149 +35,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005449 seconds.
+Registered in 0.005550 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.787 seconds
 Domain Reload Profiling:
-	ReloadAssembly (751ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (788ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (515ms)
-			LoadAssemblies (127ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (213ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010032 seconds.
+Registered in 0.019547 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD1B01B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD93B840 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD817760 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD9000A0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FC019050 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD817760 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD951A60 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE396830 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3ABA40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE5C6220 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD43C010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD43C010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE5C6220 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD45A620 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE5C6220 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD233C20 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD3CB030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEE646B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF0FE440 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3ABA40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEC785B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBD79860 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3ABA40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE506420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD2CE010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3ABA40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F112CF040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE850A20 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.387 seconds
+- Completed reload, in  1.402 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1389ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1404ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1104ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (185ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (499ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1857 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.1 MB.
-System memory in use after: 97.2 MB.
+Unloading 1865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2307.
-Total: 3.419300 ms (FindLiveObjects: 0.318100 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.971900 ms  DeleteObjects: 0.080400 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 3.231800 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.882500 ms  DeleteObjects: 0.076900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -191,1492 +135,120 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Jammo-Character/Prefabs
-  artifactKey: Guid(c1aa448c4c958d843a191bcf0890103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Prefabs using Guid(c1aa448c4c958d843a191bcf0890103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea7037ac182724549c9c33c0003dc3a') in 0.007025 seconds 
+  path: Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs
+  artifactKey: Guid(d947636a9390f6a46a121124154e6e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs using Guid(d947636a9390f6a46a121124154e6e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309168556670b1c6cc5c0be063f4a5e5') in 0.041793 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Jammo-Character/Prefabs/Jammo_Player.prefab
-  artifactKey: Guid(bd6ee82c5e06b3f4f86113cbf8261ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Prefabs/Jammo_Player.prefab using Guid(bd6ee82c5e06b3f4f86113cbf8261ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfadd328a8c637d31609530afa8055b') in 0.345083 seconds 
+  Time since last request: 0.000330 seconds.
+  path: Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs
+  artifactKey: Guid(a62942d9af3f36d448094c6ed1f214dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs using Guid(a62942d9af3f36d448094c6ed1f214dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b9c64f74245d07069407fc1100771c') in 0.006007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs
+  artifactKey: Guid(94b04ec3bda6b7747aa53936ef3b0ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs using Guid(94b04ec3bda6b7747aa53936ef3b0ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f953512d9bd99c390788a1479097e759') in 0.004045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs
+  artifactKey: Guid(f2ec2b96de5640e42a622fc3064f1c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs using Guid(f2ec2b96de5640e42a622fc3064f1c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab81f03b1489b5d9fe040a0a21db6d5') in 0.006245 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011588 seconds.
+Registered in 0.011106 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FD650 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD333E40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD33C050 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD81A440 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD33C050 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEADF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F006F2040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEADF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEADF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCE09D30 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F006F2040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F006F2040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF4BAC0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F006F2040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE5B4620 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE370010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FED29CB0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02250430 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F006FA050 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3545C0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF086F0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE544430 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD49F300 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB4FA0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD245C40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.406 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1407ms)
-		BeginReloadAssembly (190ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1114ms)
-			LoadAssemblies (169ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (505ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (354ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.3 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2320.
-Total: 2.915500 ms (FindLiveObjects: 0.211000 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.628700 ms  DeleteObjects: 0.027900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 204.595743 seconds.
-  path: Assets/Jammo-Character/Prefabs/Jammo_Player.prefab
-  artifactKey: Guid(bd6ee82c5e06b3f4f86113cbf8261ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Prefabs/Jammo_Player.prefab using Guid(bd6ee82c5e06b3f4f86113cbf8261ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cab466d5c0a02b3505ba63ee8dc0ae2') in 0.197454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 161.279576 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(6f558100f8cc3ae4a9f26da88cb81605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(6f558100f8cc3ae4a9f26da88cb81605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f7a966ac1a57fec241bde53ffb8761') in 0.004152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062578 seconds.
-  path: Assets/Resources/Player3.prefab
-  artifactKey: Guid(1354d2cd6cc44cc44a6ef27176c0181a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player3.prefab using Guid(1354d2cd6cc44cc44a6ef27176c0181a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7c264152cc7d203dde6a500ababc9') in 0.024037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Resources/Terrain.asset
-  artifactKey: Guid(5e50b274d3c4f1e4aa1038ead26e4d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Terrain.asset using Guid(5e50b274d3c4f1e4aa1038ead26e4d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ea5dc3df1344a4c5d01bbef2abf2e2') in 0.222803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.496596 seconds.
-  path: Assets/Resources/Player3 1.prefab
-  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player3 1.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c287883a8e4217caf35e38e178f66a5') in 0.051021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.134159 seconds.
-  path: Assets/Resources/Player3 1.prefab
-  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player3 1.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c20535a1f89316e4a44183bb692fd59') in 0.052547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.648919 seconds.
-  path: Assets/Resources/Player2.prefab
-  artifactKey: Guid(1354d2cd6cc44cc44a6ef27176c0181a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player2.prefab using Guid(1354d2cd6cc44cc44a6ef27176c0181a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c78b3fc1a446aea1abcdd6e272745c0') in 0.015331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.890886 seconds.
-  path: Assets/Resources/Player3.prefab
-  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b567b0bb29c61b004854e2106f7b087') in 0.047342 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020317 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FD340 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0089E710 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0087C040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD60C480 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03077070 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0087C040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0089E710 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02BCD090 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBAAF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD333E40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCE09D30 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02BCD090 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEADF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FB9FF030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEADF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F012B2010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBCB4010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01C1DE70 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FA5F4E20 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F031BFA30 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE355060 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0089E710 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD60C480 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE314020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEE51010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F032A5640 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CBA590 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (176ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1066ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (469ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.4 MB.
-System memory in use after: 113.5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 3.593400 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.049300 ms MarkObjects: 3.278800 ms  DeleteObjects: 0.029900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 207.719877 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/LaserBolt.fbx
-  artifactKey: Guid(efbb13993d8043d4ba5c752ed4b1a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/LaserBolt.fbx using Guid(efbb13993d8043d4ba5c752ed4b1a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8463c155eab25c95d30ca8c6df0a1e1f') in 0.220851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000845 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_3.FBX
-  artifactKey: Guid(09f4942833b61cf429ab5ae4addaacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_3.FBX using Guid(09f4942833b61cf429ab5ae4addaacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad21cbc0075c3bf7478175471c304538') in 0.255749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/hamvee.FBX
-  artifactKey: Guid(7b912c5dfa554a04296ecbf246180058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/hamvee.FBX using Guid(7b912c5dfa554a04296ecbf246180058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c5a2a8b1f56c5f60484d24d69f5b75') in 0.169487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_1.FBX
-  artifactKey: Guid(1ec55baed88ac07429a52bee4c519015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_1.FBX using Guid(1ec55baed88ac07429a52bee4c519015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1ac56c67f405282995395468dcb906') in 0.233744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.761804 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_4.FBX
-  artifactKey: Guid(f3cb3c8f5cd4b514ebf9fbfda32cb36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Models/car_4.FBX using Guid(f3cb3c8f5cd4b514ebf9fbfda32cb36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a6c00cc8e14faec4ab4350858a6ea8') in 0.144316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.442118 seconds.
-  path: Assets/Jammo-Character/Models/Jammo_LowPoly.fbx
-  artifactKey: Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jammo-Character/Models/Jammo_LowPoly.fbx using Guid(82a2914d8f86c62488456950c8330e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448e8de17f4f388d50a0f1efd10f9d53') in 0.482257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.404797 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/PT_Medieval_Plague_Doctor_pose.fbx
-  artifactKey: Guid(0588ca48017a1164281d258605991aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/PT_Medieval_Plague_Doctor_pose.fbx using Guid(0588ca48017a1164281d258605991aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9e0b3a0936e435fede5dd437945f8e') in 0.058851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/PT_Medieval_Rock_4.fbx
-  artifactKey: Guid(a915e414ebfaeab4eaf18334efde6333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/PT_Medieval_Rock_4.fbx using Guid(a915e414ebfaeab4eaf18334efde6333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be18cc0b85769954e5b17ba3d9f525c') in 0.022700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/PT_Medieval_Rock_6.fbx
-  artifactKey: Guid(ff775ad6de0408246a14b407044826f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/PT_Medieval_Rock_6.fbx using Guid(ff775ad6de0408246a14b407044826f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70fd4f8ee3dfea3bdde0753a0012779') in 0.035689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000934 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/PT_Medieval_Tree_1.fbx
-  artifactKey: Guid(fab0918501d63734e9a19b64c51761ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/PT_Medieval_Tree_1.fbx using Guid(fab0918501d63734e9a19b64c51761ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fb53a3a45a83d0b3c63d9e40e2949b') in 0.034142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Plague_Doctor_Wand.fbx
-  artifactKey: Guid(bc629041694e5cc44b7afe2b9e82c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Plague_Doctor_Wand.fbx using Guid(bc629041694e5cc44b7afe2b9e82c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37de3a0c4f1b1ad91ece951144e651c1') in 0.032311 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014357 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FD650 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF45650 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCD64970 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF8CF00 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF078020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01A721B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF8CF00 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF078020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FB9FF030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF078020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBCB4010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F016738B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00D43780 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE6B85A0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0206A030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F005C4060 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FED2E210 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB47D0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.644 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1645ms)
-		BeginReloadAssembly (305ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1213ms)
-			LoadAssemblies (308ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (559ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (392ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (24ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.2 MB.
-System memory in use after: 114.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2369.
-Total: 7.234200 ms (FindLiveObjects: 0.713200 ms CreateObjectMapping: 0.169500 ms MarkObjects: 6.312200 ms  DeleteObjects: 0.036200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010321 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FE5A0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEC776B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F000D8010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD333E40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB5F6D0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F015AB010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F015AB010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF20040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F015AB010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00B7F020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00D174C0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD79A890 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE35A010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBAAF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01700010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F002FB020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03030010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB4FA0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.548 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1549ms)
-		BeginReloadAssembly (275ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (1186ms)
-			LoadAssemblies (210ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (463ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.2 MB.
-System memory in use after: 114.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2374.
-Total: 3.646500 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.048800 ms MarkObjects: 3.359600 ms  DeleteObjects: 0.031200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010113 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FF800 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170D4172E70 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02BA4650 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170D4172E70 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00EDF020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00E30020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F036C6020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00EDF020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00E30020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF20040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00E30020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF20040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE1CB4D0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF079790 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE6B8050 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBAAF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE21E040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F005C4060 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F036BCF60 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB76B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.410 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1410ms)
-		BeginReloadAssembly (229ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1099ms)
-			LoadAssemblies (191ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (476ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (326ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.2 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 3.349400 ms (FindLiveObjects: 0.196800 ms CreateObjectMapping: 0.045700 ms MarkObjects: 3.077500 ms  DeleteObjects: 0.027500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010475 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FE8B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD8ABF40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170D3FC89E0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00EDF020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE1B4020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF20040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF20040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0167B4D0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F000DE870 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE359020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBAAF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE21E040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEE51010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03030010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB4000 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.633 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1634ms)
-		BeginReloadAssembly (291ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (1237ms)
-			LoadAssemblies (205ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (349ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (561ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (378ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.3 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2384.
-Total: 3.866900 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.049700 ms MarkObjects: 3.554200 ms  DeleteObjects: 0.028200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015530 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FE290 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170D4172E70 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0225C340 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170D4172E70 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00EDF020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD4B7320 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F028F2010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD4B7320 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0327B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD4B7320 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F012B2010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F031E1010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE4D8A90 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBB8E7A0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE6B6B10 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCB45010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBAAF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00D00010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA35210 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03030010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CBA590 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.674 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1675ms)
-		BeginReloadAssembly (188ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1405ms)
-			LoadAssemblies (188ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (642ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.3 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2389.
-Total: 3.433700 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.053800 ms MarkObjects: 3.142800 ms  DeleteObjects: 0.030400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010682 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FD340 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA23020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF45650 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEC77390 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170D4172E70 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA23020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00EDF020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEB2D010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01F80020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD4B7320 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE7B3040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD4B7320 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE7B3040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F013D1AA0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02F260D0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01526020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE354070 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA23020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBAAF010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBC3020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEE51010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03030010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB5F40 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02944040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.687 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1687ms)
-		BeginReloadAssembly (291ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1261ms)
-			LoadAssemblies (284ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (540ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (357ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.3 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2394.
-Total: 8.126800 ms (FindLiveObjects: 0.978100 ms CreateObjectMapping: 0.211700 ms MarkObjects: 6.858300 ms  DeleteObjects: 0.073400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 879.656578 seconds.
-  path: Assets/Resources/Player3.prefab
-  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b9ec2c85a62ae20ac0fa833b979b9b') in 0.193114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Resources/Player3.prefab
-  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa63c056a04c6e9ec42103a365e9215') in 0.083552 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013039 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FEED0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA23020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF45650 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE8C1A00 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170D4172E70 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA23020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03201020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00E30020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE1B4020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02926050 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00E30020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0327B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00E30020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0385A020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE4D8A90 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0293E330 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE6B9040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA23020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F017323E0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0385A020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03030010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB3830 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.494 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1495ms)
-		BeginReloadAssembly (208ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (1198ms)
-			LoadAssemblies (181ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (421ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (474ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.3 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2400.
-Total: 4.521900 ms (FindLiveObjects: 0.493400 ms CreateObjectMapping: 0.061300 ms MarkObjects: 3.931500 ms  DeleteObjects: 0.032000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009709 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FF800 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD26B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE351C30 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02BA3070 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD26B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03201020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEB2D010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03594010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0327B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBBB1020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F028F2010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE209E80 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F038565C0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE359570 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD26B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE1B4020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEE51010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE462030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB47D0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1369ms)
-		BeginReloadAssembly (178ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1093ms)
-			LoadAssemblies (185ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (449ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.3 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2405.
-Total: 3.950800 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.070500 ms MarkObjects: 3.563700 ms  DeleteObjects: 0.033000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014248 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FC3F0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD79C040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF46960 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD79C040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03201020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F036FA010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F01F80020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F036FA010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F036FA010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F037D8030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F036FA010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0327B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F036B89D0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03854EA0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE6B65C0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD79C040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F03692830 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBA35210 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD2B7010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB76B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.403 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1404ms)
-		BeginReloadAssembly (176ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1121ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (470ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (310ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.3 MB.
-System memory in use after: 114.5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2410.
-Total: 8.628200 ms (FindLiveObjects: 0.539000 ms CreateObjectMapping: 0.228600 ms MarkObjects: 7.786900 ms  DeleteObjects: 0.070900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1049.894168 seconds.
-  path: Assets/Resources/Player3.prefab
-  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6259d4784bb81b5d60737a86d9c4ac37') in 0.272870 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009200 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000170FD8FC3F0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD26B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE351C30 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonChat.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBF5B6A0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02FD9020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD26B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00EDF020 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEB2D010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0E7E8010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F030A1710 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD1A1040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBCB4010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD1A1040 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F00F8A420 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FBCB4010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F0E657AA0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F033E8CF0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE3AA030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE354070 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FD26B010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonRealtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FF01F010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F028F2010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FEE51010 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FE462030 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016F02CB76B0 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000170FCF17D50 doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.365 seconds
+- Completed reload, in  1.265 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1366ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1031ms)
-			LoadAssemblies (227ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1008ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (451ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (283ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 3.617500 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.062300 ms MarkObjects: 3.317700 ms  DeleteObjects: 0.037600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010001 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1435ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1097ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (328ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -1684,11 +256,755 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.4 MB.
-System memory in use after: 114.5 MB.
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2416.
-Total: 3.326900 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.066800 ms MarkObjects: 3.015900 ms  DeleteObjects: 0.028200 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 3.817400 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.049500 ms MarkObjects: 3.483800 ms  DeleteObjects: 0.034200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174.695335 seconds.
+  path: Assets/DisconnectPanel.prefab
+  artifactKey: Guid(ed32bb19c46deb14a8290a8561bc1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DisconnectPanel.prefab using Guid(ed32bb19c46deb14a8290a8561bc1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cb93dcda53ef1f3676d3d5ff43dc1a') in 0.078221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.641491 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f2ab0549a151bed49af894f3809bd32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f2ab0549a151bed49af894f3809bd32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ee4bd4aaafbd32d05ea88fdf064459') in 0.004511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.587616 seconds.
+  path: Assets/Scripts/CamController.cs
+  artifactKey: Guid(7aa878e4851edea43ba7c3d0c017bf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CamController.cs using Guid(7aa878e4851edea43ba7c3d0c017bf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30808a2a6489f846f630e1fc19affd98') in 0.005078 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011415 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1515ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 3.062500 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.047600 ms MarkObjects: 2.759200 ms  DeleteObjects: 0.038000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1628ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1323ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (449ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 3.754500 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.049700 ms MarkObjects: 3.455200 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.613467 seconds.
+  path: Assets/Scripts/CamController.cs
+  artifactKey: Guid(7aa878e4851edea43ba7c3d0c017bf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CamController.cs using Guid(7aa878e4851edea43ba7c3d0c017bf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f84255886a97178e8ee4e14bf065df0') in 0.011976 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1687ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1432ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 4.020300 ms (FindLiveObjects: 0.629200 ms CreateObjectMapping: 0.067200 ms MarkObjects: 3.295500 ms  DeleteObjects: 0.025300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012688 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1669ms)
+			LoadAssemblies (325ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (753ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (507ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (9ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 8.019700 ms (FindLiveObjects: 0.872700 ms CreateObjectMapping: 0.285000 ms MarkObjects: 6.796300 ms  DeleteObjects: 0.062500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 730.902062 seconds.
+  path: Assets/Resources/Player3.prefab
+  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5e7d8396d58fac4886b387abbedba7') in 0.267037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075279 seconds.
+  path: Assets/Resources/Player3.prefab
+  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0b302616bdba73c1f3997dd99df830') in 0.094948 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1344ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1058ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 6.928600 ms (FindLiveObjects: 0.719600 ms CreateObjectMapping: 0.097000 ms MarkObjects: 6.071800 ms  DeleteObjects: 0.038000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010696 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1215ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 3.776400 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.047900 ms MarkObjects: 3.441300 ms  DeleteObjects: 0.035200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012542 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1021ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 4.415000 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.055500 ms MarkObjects: 4.039800 ms  DeleteObjects: 0.029500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 341.104883 seconds.
+  path: Assets/Resources/Player3.prefab
+  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6644df19d0be8254d818519c436a349') in 0.234235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Resources/Player3.prefab
+  artifactKey: Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Player3.prefab using Guid(a5bbc94b78466ba4699e101111336dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1dbe8c41fb76a3a5dab3a522897350') in 0.074411 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011198 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.463 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1464ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1158ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 3.435300 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.048400 ms MarkObjects: 3.110200 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010912 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1396ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 4.053700 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.047800 ms MarkObjects: 3.744100 ms  DeleteObjects: 0.040900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010033 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1306ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1038ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 4.044700 ms (FindLiveObjects: 0.237700 ms CreateObjectMapping: 0.064200 ms MarkObjects: 3.704800 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1308ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 3.796900 ms (FindLiveObjects: 0.256100 ms CreateObjectMapping: 0.048500 ms MarkObjects: 3.461200 ms  DeleteObjects: 0.029300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\COM\Desktop\김태용 흔적\capston\New DM\Dongguk-Market\PhotonTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 3.725200 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.054200 ms MarkObjects: 3.433900 ms  DeleteObjects: 0.038300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

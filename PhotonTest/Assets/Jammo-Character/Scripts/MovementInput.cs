@@ -47,7 +47,7 @@ public class MovementInput : MonoBehaviour {
 		controller = this.GetComponent<CharacterController> ();
 		tr = GetComponent<Transform>();
         if (PV.IsMine)
-            Camera.main.GetComponent<SmoothFollow>().target = tr.Find("CamPivot").transform;
+            Camera.main.GetComponent<CamController>().player = tr.Find("CamPivot").transform;
 	}
 	
 	// Update is called once per frame
