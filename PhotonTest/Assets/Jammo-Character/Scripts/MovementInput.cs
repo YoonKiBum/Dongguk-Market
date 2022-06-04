@@ -49,7 +49,7 @@ public class MovementInput : MonoBehaviour {
         if (PV.IsMine)
             Camera.main.GetComponent<CamController>().player = tr.Find("CamPivot").transform;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		InputMagnitude ();
@@ -65,7 +65,6 @@ public class MovementInput : MonoBehaviour {
         }
         moveVector = new Vector3(0, verticalVel * .2f * Time.deltaTime, 0);
         controller.Move(moveVector);
-
 
     }
 

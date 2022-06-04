@@ -42,6 +42,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
   
     public GameObject Cube;//플레이어 생성 위치
     public string gameVersion = "1.0";//게임 버전
+    public GameObject Store;
 
     public GameObject shop; // 구매 UI
     public GameObject register; // 판매 UI
@@ -341,6 +342,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         StatusText.text = PhotonNetwork.NetworkClientState.ToString();
         LobbyInfoText.text = (PhotonNetwork.CountOfPlayers - PhotonNetwork.CountOfPlayersInRooms) + "로비 / " + PhotonNetwork.CountOfPlayers + "접속";
+        CreateStore();
     }
     public void Connect() => PhotonNetwork.ConnectUsingSettings();
 
@@ -398,6 +400,19 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             ChatInput.text = "";
             for (int i = 0; i < ChatText.Length; i++) ChatText[i].text = "";
         }
+        
+    }
+
+    public void CreateStore(){
+        foreach(GameObject player in GameObject.FindGameObjectsWithTag("Player")){
+            if(player.GetPhotonView().IsMine){
+                if(Input.GetButtonDown("CreateStore")){
+                    PhotonNetwork.Instantiate("Store", player.transform.position ,Quaternion.identity);
+                    Debug.Log("Store Created");
+                }
+            }
+        }
+        
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message) { RoomInput.text = ""; CreateRoom(); }
