@@ -52,11 +52,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public PlayerLeaderboardEntry MyPlayFabInfo; // 리더 보드에서 가져온 Current Player의 Info
     public List<PlayerLeaderboardEntry> PlayFabUserList = new List<PlayerLeaderboardEntry>(); // 리더 보드에서 가져온 모든 Player의 Info
 
-    [SerializeField] Transform ShopScrollView; //S hop에 존재하는 Item들을 담고 있는 ScrollView
+    [SerializeField] Transform ShopScrollView; //Shop에 존재하는 Item들을 담고 있는 ScrollView
     public List<GameObject> Shop_Items = new List<GameObject>(); // ScrollView 내에 생성되는 모든 Item들을 담는 List
     public GameObject Sample_Item; // 상점에 인스턴스 생성하기 위해 만들어 놓은 sample -> setActive(false) 하기 위함
     GameObject ItemTemplate; //Shop에 존재하는 Item 템플릿 -> Sample_Item을 템플릿으로
     public Dictionary<string, string> Player_Items = new Dictionary<string, string>(); // 각 플레이어가 등록한 Items의 Number
+
+    [SerializeField] Transform Shop_Collections;
 
     bool Flag = false;
     int cnt = 0;
@@ -155,7 +157,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         }, (error) => print("데이터 저장 실패"));
     }
 
-    public void SearchBtn() // 구매 Search 버튼
+    public void SearchBtn(string owner) // 구매 Search 버튼
     {
         if (Shop_Items.Count != 0)
         {
@@ -169,7 +171,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         GameObject g;
         ItemTemplate = ShopScrollView.GetChild(0).gameObject;
 
-        print(SearchInput.text);
         for (int i = 0; i < PlayFabUserList.Count; i++)
         {
             string seller = PlayFabUserList[i].DisplayName;
@@ -191,7 +192,43 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                         data_text[2].text = datas[1];
                         data_text[3].text = datas[2];
 
-                        g.SetActive(true);
+                        if (SearchInput.text.Equals(""))
+                        {
+                            if(owner == "")
+                            {
+                                g.SetActive(true);
+                            }
+                            else
+                            {
+                                if (seller == owner)
+                                    g.SetActive(true);
+                                else
+                                    g.SetActive(false);
+                            }
+                        }
+                        else
+                        {
+                            if (datas[0].Contains(SearchInput.text))
+                            {
+                                if (owner == "")
+                                {
+                                    g.SetActive(true);
+                                }
+                                else
+                                {
+                                    if (seller == owner)
+                                        g.SetActive(true);
+                                    else
+                                        g.SetActive(false);
+                                }
+                            }
+                            else
+                            {
+                                g.SetActive(false);
+                            }
+
+                        }
+
                         Shop_Items.Add(g);
                     }
                 }
@@ -199,6 +236,39 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         }
     }
+
+    //생성된 Store 객체에서 구매 창 생성
+    public void ShowStore()
+    {
+        //구매 UI 띄우기 전 이미 생성된 shop_item instance
+        if (Shop_Items.Count != 0)
+        {
+            foreach (GameObject game in Shop_Items)
+            {
+                Destroy(game);
+            }
+            Shop_Items.Clear();
+        }
+
+        GameObject collision = null; //Player와 충돌한 Store
+        PlayerLeaderboardEntry owner = new PlayerLeaderboardEntry();
+
+        string store_tag = collision.tag;
+
+        for(int i=0; i<PlayFabUserList.Count; i++)
+        {
+            string display_name = PlayFabUserList[i].DisplayName;
+
+            if (display_name == store_tag)
+                owner = PlayFabUserList[i];
+        }
+
+        SearchBtn(owner.DisplayName);
+
+
+        shop.SetActive(true);
+    }
+
 
     public void purchaseCloseBtn() // 구매 Close 버튼
     {
@@ -404,10 +474,17 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     }
 
     public void CreateStore(){
+        GameObject g;
+
         foreach(GameObject player in GameObject.FindGameObjectsWithTag("Player")){
             if(player.GetPhotonView().IsMine){
                 if(Input.GetButtonDown("CreateStore")){
-                    PhotonNetwork.Instantiate("Store", player.transform.position ,Quaternion.identity);
+                    g = new GameObject();
+                    g = PhotonNetwork.Instantiate("Store", player.transform.position ,Quaternion.identity);
+                    String t = MyPlayFabInfo.DisplayName;
+                    g.tag = t;
+                    g.transform.SetParent(Shop_Collections);
+                    
                     Debug.Log("Store Created");
                 }
             }
