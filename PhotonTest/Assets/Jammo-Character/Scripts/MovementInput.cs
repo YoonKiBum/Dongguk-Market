@@ -39,6 +39,7 @@ public class MovementInput : MonoBehaviour {
 
     public float verticalVel;
     private Vector3 moveVector;
+	public string nickName;
 
 	// Use this for initialization
 	void Start () {
@@ -128,12 +129,14 @@ public class MovementInput : MonoBehaviour {
 		}
 	}
 	void OnTriggerStay(Collider other){
-		if(other.tag=="qpqp")
-			Debug.Log("press e");
+		nickName=NetworkManager.t;
+		
+		if(other.tag==nickName)
+			Debug.Log(nickName+" enter");
 		
 	}
 	void OnTriggerExit(Collider other){
-		if(other.tag=="qpqp")
+		if(other.tag==nickName)
 			Debug.Log("shopping finished");
 	}
 }

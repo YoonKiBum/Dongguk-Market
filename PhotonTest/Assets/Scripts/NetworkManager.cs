@@ -57,6 +57,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public GameObject Sample_Item; // 상점에 인스턴스 생성하기 위해 만들어 놓은 sample -> setActive(false) 하기 위함
     GameObject ItemTemplate; //Shop에 존재하는 Item 템플릿 -> Sample_Item을 템플릿으로
     public Dictionary<string, string> Player_Items = new Dictionary<string, string>(); // 각 플레이어가 등록한 Items의 Number
+    public static String t;
 
     [SerializeField] Transform Shop_Collections;
 
@@ -481,7 +482,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                 if(Input.GetButtonDown("CreateStore")){
                     g = new GameObject();
                     g = PhotonNetwork.Instantiate("Store", player.transform.position ,Quaternion.identity);
-                    String t = MyPlayFabInfo.DisplayName;
+                    t = MyPlayFabInfo.DisplayName;
                     g.tag = t;
                     g.transform.SetParent(Shop_Collections);
                     
