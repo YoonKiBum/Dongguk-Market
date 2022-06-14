@@ -127,4 +127,13 @@ public class MovementInput : MonoBehaviour {
 			anim.SetFloat ("Blend", Speed, StopAnimTime, Time.deltaTime);
 		}
 	}
+	void OnTriggerStay(Collider other){
+		if(other.tag=="qpqp")
+			Debug.Log("press e");
+		
+	}
+	void OnTriggerExit(Collider other){
+		if(other.tag=="qpqp")
+			Debug.Log("shopping finished");
+	}
 }
