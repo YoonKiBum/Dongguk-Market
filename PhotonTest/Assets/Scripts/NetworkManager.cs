@@ -63,6 +63,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     bool Flag = false;
     int cnt = 0;
+    int storecnt = 0;
 
     #region 방리스트 갱신
     // ◀버튼 -2 , ▶버튼 -1 , 셀 숫자
@@ -479,14 +480,23 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         foreach(GameObject player in GameObject.FindGameObjectsWithTag("Player")){
             if(player.GetPhotonView().IsMine){
-                if(Input.GetButtonDown("CreateStore")){
+                if(Input.GetButtonDown("CreateStore") && (storecnt % 2 == 0)){
                     g = new GameObject();
-                    g = PhotonNetwork.Instantiate("Store", player.transform.position ,Quaternion.identity);
+                    g = PhotonNetwork.Instantiate("Store", player.transform.position ,player.transform.rotation);
                     t = MyPlayFabInfo.DisplayName;
                     g.tag = t;
                     g.transform.SetParent(Shop_Collections);
                     
                     Debug.Log("Store Created");
+                    storecnt = (storecnt + 1) % 2;
+                }
+                else if(Input.GetButtonDown("CreateStore") && (storecnt % 2 == 1)){
+                    GameObject[] storetag = GameObject.FindGameObjectsWithTag(MyPlayFabInfo.DisplayName);
+                    storecnt = (storecnt + 1) % 2;
+                    for(int i = 0; i < storetag.Length; i++){
+                        Destroy(storetag[i]);
+                    }
+                    Debug.Log("Destroyed");
                 }
             }
         }
