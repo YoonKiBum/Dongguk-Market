@@ -40,6 +40,8 @@ public class MovementInput : MonoBehaviour {
     public float verticalVel;
     private Vector3 moveVector;
 	public string nickName;
+	public GameObject shop; // 구매 UI
+    public GameObject register; // 판매 UI
 
 	// Use this for initialization
 	void Start () {
@@ -66,6 +68,7 @@ public class MovementInput : MonoBehaviour {
         }
         moveVector = new Vector3(0, verticalVel * .2f * Time.deltaTime, 0);
         controller.Move(moveVector);
+		
 
     }
 
@@ -130,13 +133,33 @@ public class MovementInput : MonoBehaviour {
 	}
 	void OnTriggerStay(Collider other){
 		nickName=NetworkManager.t;
+
 		
-		if(other.tag==nickName)
+		if(other.tag==nickName){//shop 주인
 			Debug.Log(nickName+" enter");
+			if(Input.GetButtonDown("registers")){
+				Debug.Log("e clicked");
+				Debug.Log(register.name);
+				register.SetActive(true);		
+				
+			}
+			if(Input.GetKeyDown(KeyCode.Escape)){
+				register.SetActive(false);
+			}
+		}
+		Debug.Log("you can see this shop");
+		if(Input.GetButtonDown("shops")){
+			Debug.Log("r clicked");
+			shop.SetActive(true);
+		}
+		if(Input.GetKeyDown(KeyCode.Escape)){
+				shop.SetActive(false);
+			}
 		
 	}
 	void OnTriggerExit(Collider other){
-		if(other.tag==nickName)
+		if(other.tag==nickName){
 			Debug.Log("shopping finished");
+		}
 	}
 }
