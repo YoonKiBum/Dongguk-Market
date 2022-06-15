@@ -388,6 +388,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         StatusText.text = PhotonNetwork.NetworkClientState.ToString();
         LobbyInfoText.text = (PhotonNetwork.CountOfPlayers - PhotonNetwork.CountOfPlayersInRooms) + "로비 / " + PhotonNetwork.CountOfPlayers + "접속";
         CreateStore();
+        //PV.RPC("CreateStore", RpcTarget.All);
     }
     public void Connect() => PhotonNetwork.ConnectUsingSettings();
 
@@ -454,12 +455,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         foreach(GameObject player in GameObject.FindGameObjectsWithTag("Player")){
             if(player.GetPhotonView().IsMine){
                 if(Input.GetButtonDown("CreateStore") && (storecnt % 2 == 0)){
-                    g = new GameObject();
+                    //g = new GameObject();
                     g = PhotonNetwork.Instantiate("Store", player.transform.position ,player.transform.rotation);
                     t = MyPlayFabInfo.DisplayName;
                     g.tag = t;
-                    g.transform.SetParent(Shop_Collections);
-                    
+                    //g.transform.SetParent(Shop_Collections);
+
                     Debug.Log("Store Created");
                     storecnt = (storecnt + 1) % 2;
                 }
