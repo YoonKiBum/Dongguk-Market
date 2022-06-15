@@ -10,6 +10,9 @@ TagManager:
   - abc
   - aaaaaa
   - qpqp
+  - Register
+  - Shop
+  - Canvas
   layers:
   - Default
   - TransparentFX

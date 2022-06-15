@@ -43,6 +43,8 @@ public class MovementInput : MonoBehaviour {
 	public GameObject shop; // 구매 UI
     public GameObject register; // 판매 UI
 
+	public NetworkManager manager;
+
 	// Use this for initialization
 	void Start () {
 		anim = this.GetComponent<Animator> ();
@@ -51,6 +53,10 @@ public class MovementInput : MonoBehaviour {
 		tr = GetComponent<Transform>();
         if (PV.IsMine)
             Camera.main.GetComponent<CamController>().player = tr.Find("CamPivot").transform;
+
+		manager = GameObject.Find("NetworkManager").GetComponent<NetworkManager>();
+		register = GameObject.FindWithTag("Canvas").transform.GetChild(0).gameObject;
+		shop = GameObject.FindWithTag("Canvas").transform.GetChild(1).gameObject;
 	}
 
 	// Update is called once per frame
@@ -133,9 +139,8 @@ public class MovementInput : MonoBehaviour {
 	}
 	void OnTriggerStay(Collider other){
 		nickName=NetworkManager.t;
-
 		
-		if(other.tag==nickName){//shop 주인
+		if (other.tag==nickName){//shop 주인
 			Debug.Log(nickName+" enter");
 			if(Input.GetButtonDown("registers")){
 				Debug.Log("e clicked");
@@ -150,15 +155,18 @@ public class MovementInput : MonoBehaviour {
 		Debug.Log("you can see this shop");
 		if(Input.GetButtonDown("shops")){
 			Debug.Log("r clicked");
+			manager.setOwner(other.tag);
 			shop.SetActive(true);
 		}
 		if(Input.GetKeyDown(KeyCode.Escape)){
+			manager.setOwner(other.tag);
 				shop.SetActive(false);
 			}
 		
 	}
 	void OnTriggerExit(Collider other){
 		if(other.tag==nickName){
+			manager.setOwner("");
 			Debug.Log("shopping finished");
 		}
 	}

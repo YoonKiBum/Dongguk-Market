@@ -60,6 +60,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public static String t;
 
     [SerializeField] Transform Shop_Collections;
+    public string owner = "";
 
     bool Flag = false;
     int cnt = 0;
@@ -159,7 +160,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         }, (error) => print("데이터 저장 실패"));
     }
 
-    public void SearchBtn(string owner) // 구매 Search 버튼
+    public void SearchBtn() // 구매 Search 버튼
     {
         if (Shop_Items.Count != 0)
         {
@@ -239,39 +240,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         }
     }
 
-    //생성된 Store 객체에서 구매 창 생성
-    public void ShowStore()
-    {
-        //구매 UI 띄우기 전 이미 생성된 shop_item instance
-        if (Shop_Items.Count != 0)
-        {
-            foreach (GameObject game in Shop_Items)
-            {
-                Destroy(game);
-            }
-            Shop_Items.Clear();
-        }
-
-        GameObject collision = null; //Player와 충돌한 Store
-        PlayerLeaderboardEntry owner = new PlayerLeaderboardEntry();
-
-        string store_tag = collision.tag;
-
-        for(int i=0; i<PlayFabUserList.Count; i++)
-        {
-            string display_name = PlayFabUserList[i].DisplayName;
-
-            if (display_name == store_tag)
-                owner = PlayFabUserList[i];
-        }
-
-        SearchBtn(owner.DisplayName);
-
-
-        shop.SetActive(true);
-    }
-
-
     public void purchaseCloseBtn() // 구매 Close 버튼
     {
         int children = ShopScrollView.childCount;
@@ -282,6 +250,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         }
 
         shop.SetActive(false);
+    }
+
+    public void setOwner(string own)
+    {
+        this.owner = own;
     }
 
     void GetLeaderboard(string myID) // 리더보드 내의 Player Info를 받아 저장
